@@ -16,12 +16,12 @@ It began life back in the mid 1990's as a high speed rendering library and over 
 
 Some of the games that were created with it include:
 * Astro3D
-* FreeStrike
-* Xarlar
 * Star Blazer
 * Outpost9
 * Quest
 * Planetstrike 
 * Stellar Defense
+* Xarlor
+* FreeStrike
 
 The new 2.x releases on GitHub is the evolution of the product bringing new features and support for modern hardware. The first project I plan to do with the updated version will be FreeStrike 2.
