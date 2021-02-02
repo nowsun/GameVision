@@ -14,7 +14,7 @@ It's robust, designed for easy use and suitable for making all types of 2D games
 ## History
 It began life back in the mid 1990's as a high speed rendering library and over the years evolved into a game application framework with many nice features that allow you to make a complete game project. I enjoy the space shooter genre, so all of my games have been been of this type. 
 
-Some of the games that were created with it include:
+Some of the games that I created with it include:
 * Astro3D
 * Star Blazer
 * Outpost9
