@@ -17,7 +17,7 @@ It began life back in the mid 1990's as a high speed rendering library and over 
 Some of the games that I created with it include:
 * Astro3D
 * Star Blazer
-* Outpost9
+* Outpost 9
 * Quest
 * Planetstrike 
 * Stellar Defense
