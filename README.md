@@ -1,4 +1,4 @@
-![GameVision Toolkit](/images/logo.png)  [![Powered by Delphi](/images/delphi.png)](https://www.embarcadero.com/products/delphi)
+![GameVision Toolkit](/images/logo.png)|[![Powered by Delphi](/images/delphi.png)](https://www.embarcadero.com/products/delphi)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/tinyBigGAMES/GameVision) ![GitHub contributors](https://img.shields.io/github/contributors/tinyBigGAMES/GameVision) ![GitHub stars](https://img.shields.io/github/stars/tinyBigGAMES/GameVision?style=social) ![GitHub forks](https://img.shields.io/github/forks/tinyBigGAMES/GameVision?style=social)
 
