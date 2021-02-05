@@ -7,7 +7,7 @@
 ![Twitter Follow](https://img.shields.io/twitter/follow/tinyBigGAMES?style=social) 
 
 ## Overview
-GameVision Toolkit Is advanced 2D [Delphi](https://www.embarcadero.com/products/delphi) based game library for PC's running Microsoft Windows® and uses Direct3D® for hardware accelerated rendering.
+GameVision Toolkit (GVT) Is advanced 2D [Delphi](https://www.embarcadero.com/products/delphi) based game library for PC's running Microsoft Windows® and uses Direct3D® for hardware accelerated rendering.
 
 It's robust, designed for easy use and suitable for making all types of 2D games and other graphic simulations, You access the features from a simple and intuitive procedural API, to allow you to rapidly and efficiently develop your graphics simulations. There is support for buffers, bitmaps, audio samples, streaming music, video playback, loading resources directly from a standard zip archive, and much more.
 
