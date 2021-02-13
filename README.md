@@ -67,3 +67,71 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 * Actor (high level actor system, actor, entity actor, actor list, actor scene)
 * Game (game framework that drives gvt. All system events is managed by a derive game object)
 * All supported resources can be loaded from a standard zip archive
+
+## Usage
+This is a minimal example of using the GameVision Toolkit:
+
+```Pascal
+uses
+  GVT;
+
+type
+
+  { TMinimal }
+  TMinimal = class(TGVGame)
+  public
+    procedure OnUpdate(aDeltaTime: Double); override;
+    procedure OnRender; override;
+    procedure OnRenderGUI; override;
+    procedure OnInitParams(var aParams: TGVGameParams); override;
+  end;
+  
+...
+  
+{ TMinimal }
+procedure TMinimal.OnInitParams(var aParams: TGVGameParams);
+begin
+  // init params
+  aParams.ArchivePassword := cArchivePassword;
+  aParams.DisplayTitle := 'Minimal Example';
+end;
+
+procedure TMinimal.OnUpdate(aDeltaTime: Double);
+begin
+  inherited;
+
+  // process keys
+  if GV_KeyboardPressed(KEY_ESCAPE) then
+    GV_SetTerminate(True);
+
+  if GV_KeyboardPressed(KEY_F11) then
+    GV_ToggleFullscreenDisplay;
+
+  if GV_KeyboardPressed(KEY_F12) then
+    GV_TakeScreenshot;
+
+end;
+
+procedure TMinimal.OnRender; override;
+begin
+  inherited;
+  
+  // draw some graphics
+  GV_DrawFilledRectangle(50, 50, 50, 50, YELLOW);
+end;
+
+procedure TMinimal.OnRenderGUI;
+begin
+  // print some text
+  HudPos.X := 3;
+  HudPos.Y := 3;
+  GV_PrintFontY(MonoFont, HudPos.X, HudPos.Y, 0, WHITE, haLeft, 'fps %d', [GV_GetFrameRate]);
+  GV_PrintFontY(MonoFont, HudPos.X, HudPos.Y, 0, GREEN, haLeft, 'ESC       - Quit', []);
+  GV_PrintFontY(MonoFont, HudPos.X, HudPos.Y, 0, GREEN, haLeft, 'F11       - Toggle fullscreen', []);
+  GV_PrintFontY(MonoFont, HudPos.X, HudPos.Y, 0, GREEN, haLeft, 'F12       - Screenshot', []);
+end;  
+
+...
+
+GV_RunGame(TMinimal);
+```
