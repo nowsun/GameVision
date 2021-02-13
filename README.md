@@ -122,6 +122,8 @@ end;
 
 procedure TMinimal.OnRenderGUI;
 begin
+  inherited;
+  
   // print some text
   HudPos.X := 3;
   HudPos.Y := 3;
@@ -133,5 +135,6 @@ end;
 
 ...
 
+// just call GV_RunGame to instantiate and run game class
 GV_RunGame(TMinimal);
 ```
