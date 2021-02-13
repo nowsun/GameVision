@@ -29,7 +29,7 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 ## Features
 * Made using the latest version of Delphi
 * Long history (since 2001, across several released and unreleased projects)
-* Color
+* Color (create rgba colors in integer and float formats)
 * Archive (create, read standard zip archives)
 * Bitmap (BMP, DDS, PCX, TGA, JPEG, PNG formats)
 * Viewport (multiple, scale, rotatee)
@@ -43,26 +43,27 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 * Audio (streaming music, sound effects, .wav, .flac, .ogg, .opus, .it, .mod, .s3m, .xm, .voc formats)
 * Physics (basic physics for now)
 * Highscores (highscores to a remote MySQL database, asynchronous operations, event callback)
-* Telemetry (send telemetry data to your google analytics accound)
+* Telemetry (send telemetry data to your google analytics account)
 * Network (httpget, sendmain, reliable UDP)
-* Database
-* Bezier
-* Easing
-* Starfield
-* Collision
-* ConfigFile
-* IAP
-* Dialogs
-* IMGUI
-* Lua 
-* TreeMenu
-* Screenshake
-* Screenshot
-* Speech
-* PathEditor
-* Path
-* StartupDialog
-* Video
-* Polygon
-* Actor
-* Game
+* Database (local SQLite, remote MySQL, asynchronous operations, event callback) 
+* Bezier (define local point, render curved points)
+* Easing (all the easing methods)
+* Starfield (3d starfield simulation)
+* Collision (basic collision routines)
+* ConfigFile (ini based configuration file)
+* IAP (desktop in-app purchase, low level and higher level versions)
+* Dialogs (contact us, feedback)
+* IMGUI (immediate mode gui system)
+* Lua (fast and easy lua intergration via MoonJit)
+* TreeMenu (tree view menu box)
+* Screenshake (nice and juicy screenshake effects)
+* Screenshot (save squenced screenshot)
+* Speech (speech playback)
+* PathEditor (create paths that your game objects can follow)
+* Path (access the path data created by PathEditor)
+* StartupDialog (optional startup dialog for your game)
+* Video (.ogv format, play, pause, rewind, render)
+* Polygon (high level polygon object, add local points, transform and render world points)
+* Actor (high level actor system, actor, entity actor, actor list, actor scene)
+* Game (game framework that drives gvt. All system events is managed by a derive game object)
+* All supported resources can be loaded from a standard zip archive
