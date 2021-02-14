@@ -1507,7 +1507,7 @@ type
     property ActorList: TGVActorList read FActorList write FActorList;
     property CanCollide: Boolean read FCanCollide write FCanCollide;
     procedure OnVisit(aSender: TGVActor; aEventId: Integer; var aDone: Boolean); virtual;
-    procedure OnUpdate(aDeltaTime: Single); virtual;
+    procedure OnUpdate(aDeltaTime: Double); virtual;
     procedure OnRender; virtual;
     function OnMessage(aMsg: PGVActorMessage): TGVActor; virtual;
     procedure OnCollide(aActor: TGVActor; aHitPos: TGVVector); virtual;
@@ -1534,7 +1534,7 @@ type
     procedure Remove(aActor: TGVActor; aDispose: Boolean);
     procedure Clear(aAttrs: TGVActorAttributeSet);
     procedure ForEach(aSender: TGVActor; aAttrs: TGVActorAttributeSet; aEventId: Integer; var aDone: Boolean);
-    procedure Update(aAttrs: TGVActorAttributeSet; aDeltaTime: Single);
+    procedure Update(aAttrs: TGVActorAttributeSet; aDeltaTime: Double);
     procedure Render(aAttrs: TGVActorAttributeSet);
     function SendMessage(aAttrs: TGVActorAttributeSet; aMsg: PGVActorMessage; aBroadcast: Boolean): TGVActor;
     procedure CheckCollision(aAttrs: TGVActorAttributeSet; aActor: TGVActor);
@@ -1554,7 +1554,7 @@ type
     destructor Destroy; override;
     procedure OnEnter; virtual;
     procedure OnExit; virtual;
-    procedure OnUpdate(aDeltaTime: Single); virtual;
+    procedure OnUpdate(aDeltaTime: Double); virtual;
     procedure OnRender; virtual;
   end;
 
@@ -1591,7 +1591,7 @@ type
     property PreviousState: Integer read GetPreviousState write SetPreviousState;
     constructor Create; override;
     destructor Destroy; override;
-    procedure Update(aDeltaTime: Single);
+    procedure Update(aDeltaTime: Double);
     procedure Render;
     procedure RevertToPreviousState;
     procedure ClearStates;
@@ -1610,7 +1610,7 @@ type
     property StateMachine: TGVAIStateMachine read FStateMachine write FStateMachine;
     constructor Create; override;
     destructor Destroy; override;
-    procedure OnUpdate(aDeltaTime: Single); override;
+    procedure OnUpdate(aDeltaTime: Double); override;
     procedure OnRender; override;
   end;
 
@@ -1634,7 +1634,7 @@ type
     procedure Clean(aIndex: Integer);
     procedure Clear(aIndex: Integer; aAttrs: TGVActorAttributeSet);
     procedure ClearAll;
-    procedure Update(aAttrs: TGVActorAttributeSet; aDeltaTime: Single);
+    procedure Update(aAttrs: TGVActorAttributeSet; aDeltaTime: Double);
     procedure Render(aAttrs: TGVActorAttributeSet; aBefore: TGVActorSceneEvent; aAfter: TGVActorSceneEvent);
     function SendMessage(aAttrs: TGVActorAttributeSet; aMsg: PGVActorMessage; aBroadcast: Boolean): TGVActor;
   end;
@@ -1662,7 +1662,7 @@ type
     property StateMachine: TGVAIStateMachine read FStateMachine;
     constructor Create; override;
     destructor Destroy; override;
-    procedure OnUpdate(aDeltaTime: Single); override;
+    procedure OnUpdate(aDeltaTime: Double); override;
     procedure OnRender; override;
   end;
 
@@ -2173,7 +2173,7 @@ begin
   aDone := False;
 end;
 
-procedure TGVActor.OnUpdate(aDeltaTime: Single);
+procedure TGVActor.OnUpdate(aDeltaTime: Double);
 begin
   // update all children by default
   FChildren.Update([], aDeltaTime);
@@ -2266,7 +2266,7 @@ procedure TGVAIState.OnExit;
 begin
 end;
 
-procedure TGVAIState.OnUpdate(aDeltaTime: Single);
+procedure TGVAIState.OnUpdate(aDeltaTime: Double);
 begin
   // update all children by default
   FChildren.Update([], aDeltaTime);
@@ -2414,7 +2414,7 @@ begin
   inherited;
 end;
 
-procedure TGVAIStateMachine.Update(aDeltaTime: Single);
+procedure TGVAIStateMachine.Update(aDeltaTime: Double);
 begin
   if Assigned(FGlobalState) then
     FGlobalState.OnUpdate(aDeltaTime);
@@ -2529,7 +2529,7 @@ begin
   inherited;
 end;
 
-procedure TGVAIActor.OnUpdate(aDeltaTime: Single);
+procedure TGVAIActor.OnUpdate(aDeltaTime: Double);
 begin
   // process states
   FStateMachine.Update(aDeltaTime);
@@ -2740,7 +2740,7 @@ begin
   until P = nil;
 end;
 
-procedure TGVActorList.Update(aAttrs: TGVActorAttributeSet; aDeltaTime: Single);
+procedure TGVActorList.Update(aAttrs: TGVActorAttributeSet; aDeltaTime: Double);
 var
   P: TGVActor;
   N: TGVActor;
@@ -3051,7 +3051,7 @@ begin
   end;
 end;
 
-procedure TGVActorScene.Update(aAttrs: TGVActorAttributeSet; aDeltaTime: Single);
+procedure TGVActorScene.Update(aAttrs: TGVActorAttributeSet; aDeltaTime: Double);
 var
   I: Integer;
 begin
@@ -3161,7 +3161,7 @@ begin
   inherited;
 end;
 
-procedure TGVAIEntityActor.OnUpdate(aDeltaTime: Single);
+procedure TGVAIEntityActor.OnUpdate(aDeltaTime: Double);
 begin
   // process states
   FStateMachine.Update(aDeltaTime);
