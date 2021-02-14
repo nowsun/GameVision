@@ -54,7 +54,7 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 * IAP (desktop in-app purchase, low level and higher level versions)
 * Dialogs (contact us, feedback)
 * IMGUI (immediate mode gui system)
-* Lua (fast and easy lua intergration via MoonJit)
+* Lua (fast and easy lua intergration, can make standalone EXEs, jit compiled via MoonJit)
 * TreeMenu (tree view menu box)
 * Screenshake (nice and juicy screenshake effects)
 * Screenshot (save squenced screenshot)
