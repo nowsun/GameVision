@@ -68,6 +68,12 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 * Game (game framework that drives gvt. All system events is managed by a derive game object)
 * All supported resources can be loaded from a standard zip archive
 
+## Installation
+* [Download](https://github.com/tinyBigGAMES/GameVision/archive/main.zip) and unzip to a desired location on your computer
+* Add **installdir/libs** to Delphi's Library search path or to your projects search path
+* Add GVT.pas to your project to access toolkit features
+* See examples and GVDocs.exe for information on usage and API information
+
 ## Usage
 This is a minimal example of using the GameVision Toolkit:
 
@@ -138,6 +144,26 @@ end;
 // just call GV_RunGame to instantiate and run game class
 GV_RunGame(TMinimal);
 ```
+You can GVArc (GameVision Archive Utility) to create resource archive files:
+```
+GVArc password archivename directoryname
+```
+This will zip up **directoryname** and save it to **archivename.arc** use **password**. You can then access all your password protected resources at runtime:
+```Pascal
+var
+  Arc: TGVArchive;
+  Bmp: TGVBitmap;
+...
+Arc := GV_OpenArchive('mypassword', 'myarchivefile.arc');
+Bmp := GV_LoadBitmap(Arc, 'arc/bitmaps/sprites/ship.png', @COLORKEY);
+```
+Any routine that accepts an TGVArchive, if you pass nil, it will try to load the file directly from the filesystem. If you keep your path on disk the same as inside the archive, you can quicly access files on disk while testing and making changes, then when you create an archive, you will not have to change any paths in your sources.
+
+## Distribution
+In addition to your own redistributable files, you must also include:
+* GVT.dll - GameVision Toolkit 
+* Any .arc (zip archive files) used by your project
+
 ## Screenshots
 ![](/images/image01.jpg)
 
@@ -150,3 +176,4 @@ GV_RunGame(TMinimal);
 ![](/images/image05.jpg)
 
 ![](/images/image06.jpg)
+
