@@ -183,8 +183,8 @@ You can requrest support via:
 * Our support [forums](https://tinybiggames.com/forums/)
 * Our [twitter](https://twitter.com/tinyBigGAMES) page
 
-## Known Issues
-* The documention are WIP
+## Known issues and limitations
+* The documention is WIP
 * The examples/demos are WIP
 * Delphi only (Object Pascal)
 * Windows 10 Desktop.
