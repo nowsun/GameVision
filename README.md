@@ -44,7 +44,7 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 * **Physics** (basic physics for now)
 * **Highscores** (highscores to a remote MySQL database, asynchronous operations, event callback)
 * **Telemetry** (send telemetry data to your google analytics account)
-* **Network** (httpget, sendmain, reliable UDP)
+* **Network** (httpget, sendmail, reliable UDP)
 * **Database** (local SQLite, remote MySQL, asynchronous operations, event callback) 
 * **Bezier** (define local point, render curved points)
 * **Easing** (all the easing methods)
