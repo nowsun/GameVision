@@ -57,7 +57,7 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 * Lua (fast and easy lua intergration, can make standalone EXEs, jit compiled via MoonJit)
 * TreeMenu (tree view menu box)
 * Screenshake (nice and juicy screenshake effects)
-* Screenshot (save squenced screenshot)
+* Screenshot (save sequenced screenshot files)
 * Speech (speech playback)
 * PathEditor (create paths that your game objects can follow)
 * Path (access the path data created by PathEditor)
@@ -148,7 +148,7 @@ You can GVArc (GameVision Archive Utility) to create resource archive files:
 ```
 GVArc password archivename directoryname
 ```
-This will zip up **directoryname** and save it to **archivename.arc** use **password**. You can then access all your password protected resources at runtime:
+This will zip up **directoryname** and save it to **archivename.arc** using **password**. You can then access all your password protected resources at runtime:
 ```Pascal
 var
   Arc: TGVArchive;
