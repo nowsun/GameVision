@@ -157,7 +157,7 @@ var
 Arc := GV_OpenArchive('mypassword', 'myarchivefile.arc');
 Bmp := GV_LoadBitmap(Arc, 'arc/bitmaps/sprites/ship.png', @COLORKEY);
 ```
-Any routine that accepts an TGVArchive, if you pass nil, it will try to load the file directly from the filesystem. If you keep your path on disk the same as inside the archive, you can quicly access files on disk while testing and making changes, then when you create an archive, you will not have to change any paths in your sources.
+Any routine that accepts an **TGVArchive**, if you pass nil, it will try to load the file directly from the filesystem. If you keep your path on disk the same as inside the archive, you can quicly access files on disk while testing and making changes, then when you create an archive, you will not have to change any paths in your sources.
 
 ## Distribution
 In addition to your own redistributable files, you must also include:
@@ -177,3 +177,15 @@ In addition to your own redistributable files, you must also include:
 
 ![](/images/image06.jpg)
 
+## Support
+You can requrest support via:
+* [submitting](https://github.com/tinyBigGAMES/GameVision/issues) an issue
+* Our support [forums](https://tinybiggames.com/forums/)
+* Our [twitter](https://twitter.com/tinyBigGAMES) page
+
+## Known Issues
+* The documention are WIP
+* The examples/demos are WIP
+* Delphi only (Object Pascal)
+* Windows 10 Desktop.
+* For now grab the [latest](https://github.com/tinyBigGAMES/GameVision/archive/main.zip) from the main branch. Major features for the 2.x is locked down now, just bug fixes and WIPs. It's very stable.
