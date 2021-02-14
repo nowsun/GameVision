@@ -144,7 +144,7 @@ end;
 // just call GV_RunGame to instantiate and run game class
 GV_RunGame(TMinimal);
 ```
-You can GVArc (GameVision Archive Utility) to create resource archive files:
+You can use **GVArc** (GameVision Archive Utility) to create resource archive files:
 ```
 GVArc password archivename directoryname
 ```
