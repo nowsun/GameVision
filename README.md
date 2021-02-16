@@ -65,7 +65,7 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 * **Video** (.ogv format, play, pause, rewind, render)
 * **Polygon** (high level polygon object, add local points, transform and render world points)
 * **Actor** (high level actor system, actor, entity actor, actor list, actor scene)
-* **Game** (game framework that drives gvt. All system events is managed by a derive game object)
+* **Game** (game framework that drives GVT. All system events are managed by a derive TGVGame object)
 * All supported resources can be loaded from a standard zip archive
 
 ## Installation
