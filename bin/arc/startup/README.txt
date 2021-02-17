@@ -32,11 +32,19 @@ MINIMUM SYSTEM REQUIREMENTS
 HOW TO USE
 ---------------------------------------------------------------------
 * Unzip to desired location
-* Files:
-    GVT.pas        - GameVision Toolkit API
-    GVT.dll        - GameVision Toolkit Library
-    GVDocs.exe     - GameVision Tookkit API Help
+* Files/Folders:
+    [examples]       - Sources for GVExamples
+    [bin]
+      [arc]          - Resources used by GVExamples
+      GVArc.exe      - GameVision Toolkit Archive Utility
+      GVDocs.exe     - GameVision Toolkit API Documentation
+      GVExamples.exe - GameVision Toolkit compiled examples
+      GVExamples.arc - Examples demo resource archive file
+      GVT.dll        - GameVision Toolkit Library
+      makearc.bat    - BAT file to build GVExamples.arc
+    [libs]
+      GVT.pas        - GameVision Toolkit API
 * Add GVT.pas to you project to access and use it's functionality
 * See the examples, help for usage
-* Visit our website, forums and/or email for support
- 
+* https://gamevision.dev or https://tinybiggames.com for info/support
+  and  website, forums and/or email for support.
