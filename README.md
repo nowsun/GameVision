@@ -2,7 +2,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**GameVision Toolkit**&trade;
 
-![GitHub last commit](https://img.shields.io/github/last-commit/tinyBigGAMES/GameVision) ![GitHub contributors](https://img.shields.io/github/contributors/tinyBigGAMES/GameVision) ![GitHub stars](https://img.shields.io/github/stars/tinyBigGAMES/GameVision?style=social) ![GitHub forks](https://img.shields.io/github/forks/tinyBigGAMES/GameVision?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/tinyBigGAMES/GameVision) ![GitHub contributors](https://img.shields.io/github/contributors/tinyBigGAMES/GameVision) ![GitHub all releases](https://img.shields.io/github/downloads/tinyBigGAMES/GameVision/total) ![GitHub stars](https://img.shields.io/github/stars/tinyBigGAMES/GameVision?style=social) ![GitHub forks](https://img.shields.io/github/forks/tinyBigGAMES/GameVision?style=social)
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/tinyBigGAMES?style=social) 
 
@@ -29,34 +29,34 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 ## Features
 * Made using the latest version of Delphi
 * Long history (since 2001, across several released and unreleased projects)
-* **Color** (create rgba colors in integer and float formats)
+* **Color** (create RGBA colors in integer and float formats)
 * **Archive** (create, read standard zip archives)
 * **Bitmap** (BMP, DDS, PCX, TGA, JPEG, PNG formats)
-* **Viewport** (multiple, scale, rotatee)
-* **Display** (antialias, primatives, pixels, save to disk)
+* **Viewport** (multiple, scale, rotate)
+* **Display** (antialiasing, primitives, pixels, save to disk)
 * **Input** (keyboard, mouse, joystick)
-* **Font** (truetype, unicode)
+* **Font** (true type, Unicode)
 * **Text** (fast static text, multi-color, rotate, scale)
 * **Sprite** (pages, groups, define image in grid/rectangle space)
 * **Entity** (position, scale, rotate, thrust, polypoint collision)
 * **EntityAction** (automated entity action sequences)
 * **Audio** (streaming music, sound effects, .wav, .flac, .ogg, .opus, .it, .mod, .s3m, .xm, .voc formats)
 * **Physics** (basic physics for now)
-* **Highscores** (highscores to a remote MySQL database, asynchronous operations, event callback)
+* **Highscores** (highs cores to a remote MySQL database, asynchronous operations, event callback)
 * **Telemetry** (send telemetry data to your google analytics account)
 * **Network** (httpget, sendmail, reliable UDP)
-* **Database** (local SQLite, remote MySQL, asynchronous operations, event callback) 
+* **Database** (local SQLite, remote MySQL, asynchronous operations, event callback)
 * **Bezier** (define local point, render curved points)
 * **Easing** (all the easing methods)
 * **Starfield** (3d starfield simulation)
 * **Collision** (basic collision routines)
-* **ConfigFile** (ini based configuration file)
+* **ConfigFile** (INI based configuration file)
 * **IAP** (desktop in-app purchase, low level and higher level versions)
 * **Dialogs** (contact us, feedback)
-* **IMGUI** (immediate mode gui system)
-* **Lua** (fast and easy lua intergration, can make standalone EXEs, jit compiled via MoonJit)
+* **IMGUI** (immediate mode GUI system)
+* **Lua** (fast and easy Lua integration, can make standalone EXEs, JIT compiled)
 * **TreeMenu** (tree view menu box)
-* **Screenshake** (nice and juicy screenshake effects)
+* **Screenshake** (nice and juicy screen shake effects)
 * **Screenshot** (save sequenced screenshot files)
 * **Speech** (speech playback)
 * **PathEditor** (create paths that your game objects can follow)
@@ -69,7 +69,7 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 * All supported resources can be loaded from a standard zip archive
 
 ## Installation
-* [Download](https://github.com/tinyBigGAMES/GameVision/archive/main.zip) and unzip to a desired location on your computer
+* [Download](https://github.com/tinyBigGAMES/GameVision/releases) and unzip to a desired location on your computer
 * Add **installdir/libs** to Delphi's Library search path or to your projects search path
 * Add GVT.pas to your project to access toolkit features
 * See examples and GVDocs.exe for information on usage and API information
@@ -187,8 +187,4 @@ You can requrest support via:
 * Our [twitter](https://twitter.com/tinyBigGAMES) page
 
 ## Known issues and limitations
-* The documention is WIP
-* The examples/demos are WIP
-* Delphi only (Object Pascal)
-* Windows 10 Desktop.
-* For now grab the [latest](https://github.com/tinyBigGAMES/GameVision/archive/main.zip) from the main branch. Major features for the 2.x is locked down now, just bug fixes and WIPs. It's very stable.
+* Windows 10 desktop platform only
