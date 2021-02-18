@@ -179,6 +179,7 @@ In addition to your own redistributable files, you must also include:
 
 ## Videos
 [![Watch the video](https://img.youtube.com/vi/tS4wkZrGACM/maxresdefault.jpg)](https://youtu.be/tS4wkZrGACM)
+[![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=tS4wkZrGACM)](https://www.youtube.com/watch?v=tS4wkZrGACM "Everything Is AWESOME")
 
 ## Support
 You can requrest support via:
