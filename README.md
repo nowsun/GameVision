@@ -2,9 +2,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**GameVision Toolkit**&trade;
 
-![GitHub last commit](https://img.shields.io/github/last-commit/tinyBigGAMES/GameVision) ![GitHub contributors](https://img.shields.io/github/contributors/tinyBigGAMES/GameVision) ![GitHub all releases](https://img.shields.io/github/downloads/tinyBigGAMES/GameVision/total) ![GitHub stars](https://img.shields.io/github/stars/tinyBigGAMES/GameVision?style=social) ![GitHub forks](https://img.shields.io/github/forks/tinyBigGAMES/GameVision?style=social)
-
-![Twitter Follow](https://img.shields.io/twitter/follow/tinyBigGAMES?style=social) 
+![GitHub last commit](https://img.shields.io/github/last-commit/tinyBigGAMES/GameVision) ![GitHub contributors](https://img.shields.io/github/contributors/tinyBigGAMES/GameVision) ![GitHub all releases](https://img.shields.io/github/downloads/tinyBigGAMES/GameVision/total) ![GitHub repo size](https://img.shields.io/github/repo-size/tinyBigGAMES/GameVision) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/tinyBigGAMES/GameVision?include_prereleases) ![GitHub Release Date](https://img.shields.io/github/release-date/tinyBigGAMES/GameVision)  
+![GitHub stars](https://img.shields.io/github/stars/tinyBigGAMES/GameVision?style=social) ![GitHub forks](https://img.shields.io/github/forks/tinyBigGAMES/GameVision?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/tinyBigGAMES/GameVision?style=social)   
+![Twitter Follow](https://img.shields.io/twitter/follow/tinyBigGAMES?style=social) ![Discord](https://img.shields.io/discord/754884471324672040)
 
 ## Overview
 GameVision Toolkit (GVT) is an advanced 2D [Delphi](https://www.embarcadero.com/products/delphi) based game library for PC's running Microsoft Windows® and uses Direct3D® for hardware accelerated rendering.
