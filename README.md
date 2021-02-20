@@ -2,7 +2,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**GameVision Toolkit**&trade;
 
-![GitHub last commit](https://img.shields.io/github/last-commit/tinyBigGAMES/GameVision) ![GitHub contributors](https://img.shields.io/github/contributors/tinyBigGAMES/GameVision) [![GitHub all releases](https://img.shields.io/github/downloads/tinyBigGAMES/GameVision/total)](https://github.com/tinyBigGAMES/GameVision/releases) ![GitHub repo size](https://img.shields.io/github/repo-size/tinyBigGAMES/GameVision) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/tinyBigGAMES/GameVision?include_prereleases) ![GitHub Release Date](https://img.shields.io/github/release-date/tinyBigGAMES/GameVision)  
+![GitHub last commit](https://img.shields.io/github/last-commit/tinyBigGAMES/GameVision) ![GitHub contributors](https://img.shields.io/github/contributors/tinyBigGAMES/GameVision) ![GitHub repo size](https://img.shields.io/github/repo-size/tinyBigGAMES/GameVision) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/tinyBigGAMES/GameVision?include_prereleases) ![GitHub Release Date](https://img.shields.io/github/release-date/tinyBigGAMES/GameVision)  
 ![GitHub stars](https://img.shields.io/github/stars/tinyBigGAMES/GameVision?style=social) ![GitHub forks](https://img.shields.io/github/forks/tinyBigGAMES/GameVision?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/tinyBigGAMES/GameVision?style=social)   
 [![Twitter Follow](https://img.shields.io/twitter/follow/tinyBigGAMES?style=social)](https://twitter.com/tinyBigGAMES) [![Discord](https://img.shields.io/discord/754884471324672040)](https://discord.gg/tPWjMwK)
 
