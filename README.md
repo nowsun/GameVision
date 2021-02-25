@@ -69,7 +69,7 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 * All supported resources can be loaded from a standard zip archive
 
 ## Installation
-* [Download](https://github.com/tinyBigGAMES/GameVision/releases) and unzip to a desired location on your computer
+* Download the latest [release](https://github.com/tinyBigGAMES/GameVision/releases) or [development](https://github.com/tinyBigGAMES/GameVision/archive/main.zip) build and unzip to a desired location on your computer
 * Add **installdir/libs** to Delphi's Library search path or to your projects search path
 * Add GVT.pas to your project to access toolkit features
 * See examples and GVDocs.exe for information on usage and API information
