@@ -71,8 +71,8 @@ The new 2.x releases on GitHub is the evolution of the product bringing new feat
 ## Installation
 * Download the latest [release](https://github.com/tinyBigGAMES/GameVision/releases) or [development](https://github.com/tinyBigGAMES/GameVision/archive/main.zip) build and unzip to a desired location on your computer
 * Add **installdir/libs** to Delphi's Library search path or to your projects search path
-* Add GVT.pas to your project to access toolkit features
-* See examples and GVDocs.exe for information on usage and API information
+* Add **GVT.pas** to your project to access toolkit features
+* See examples and **GVDocs.exe** for information on usage and API information
 
 ## Usage
 This is a minimal example of using the GameVision Toolkit:
@@ -161,8 +161,8 @@ Any routine that accepts an **TGVArchive**, if you pass nil, it will try to load
 
 ## Distribution
 In addition to your own redistributable files, you must also include:
-* GVT.dll - GameVision Toolkit 
-* Any .arc (zip archive files) used by your project
+* **GVT.dll** - GameVision Toolkit 
+* Any **.arc** (zip archive files) used by your project
 
 ## Screenshots
 ![](/images/image01.jpg)
