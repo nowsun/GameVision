@@ -183,7 +183,7 @@ In addition to your own redistributable files, you must also include:
 ## Support
 You can requrest support via:
 * [submitting](https://github.com/tinyBigGAMES/GameVision/issues) an issue
-* Our support [forums](https://tinybiggames.com/forums/)
+* Our support forums [here](https://github.com/tinyBigGAMES/GameVision/discussions) or [here](https://tinybiggames.com/forums/).
 * Our [twitter](https://twitter.com/tinyBigGAMES) page
 
 ## Known issues and limitations
