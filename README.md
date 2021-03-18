@@ -24,7 +24,7 @@ Some of the games that I created with it include:
 * Xarlor
 * FreeStrike
 
-The new 2.x releases on GitHub is the evolution of the product bringing new features and support for modern hardware. The first project I plan to do with the updated version will be FreeStrike 2.
+The new 2.x releases on GitHub is the evolution of the product bringing new features and support for modern hardware.
 
 ## Features
 * Made using the latest version of Delphi
