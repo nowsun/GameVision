@@ -184,7 +184,6 @@ In addition to your own redistributable files, you must also include:
 You can requrest support via:
 * [submitting](https://github.com/tinyBigGAMES/GameVision/issues) an issue
 * Our support forums [here](https://github.com/tinyBigGAMES/GameVision/discussions).
-* Our [twitter](https://twitter.com/tinyBigGAMES) page
 
 ## Known issues and limitations
 * Windows 10 desktop platform only
